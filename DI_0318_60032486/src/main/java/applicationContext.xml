@@ -2,15 +2,16 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
 <bean id="professor" class="Professor">
 	<constructor-arg>
 		<value>최성운</value>
-	</constructor-arg>
-	
+	</constructor-arg>	
 </bean>
+
 <bean id="Lecture2" class="Lecture">
 	<constructor-arg>
-		<value>C언어</value>
+		<value>소프트웨어공학</value>
 	</constructor-arg>
 </bean>
 
